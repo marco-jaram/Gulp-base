@@ -1,5 +1,11 @@
 # Proyecto de inicio gulp-inicio
 
+Al clonar este paquete solo descomprime y desde la terminar y dentro de la carpeta utilizar
+$ npm install
+Con ello se intalara node modules y todo lo que esta en el .JSON
+
+
+
 Con este proyecto podras iniciar para procesar css y javascript
 Con las carpetas y las configuraciones necesarias para compilar
 
