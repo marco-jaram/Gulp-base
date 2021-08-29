@@ -1,14 +1,25 @@
-# Proyecto de inicio gulp-inicio
-
+# PROYECTO DE INICIO GULP
+# Instalar
 Al clonar este paquete solo descomprime y desde la terminar y dentro de la carpeta utilizar
 $ npm install
-Con ello se intalara node modules y todo lo que esta en el .JSON
+Con ello se intalara node modules (necesario) y todo lo que esta en el .JSON (dependencias).
+
+# Correr gulp
+Una vez instalado todo. Ahora desde la carpeta de nuestro proyecto y desde la termianl escribir $ gulp
+Enseguida correra automaticamente:
+ * scssTask, compila los estilos de sass y los envia carpeta dist
+ * jsTask, compila javscript y los envia a carpeta dist
+ * browsersyncServe, abre navegador con nuestro proyecto
+ * watchTask, crea un actualizador en tiempo real.
+
+   Solo dos tareas no se realizan en automatico: Optimizacion de imagnes y minimizacion de codigo. Para ejecutar estas tareas hay que escribir desde terminal:
+   * $ gulp imagenes
+   * $ gulp nanoTask
 
 
-
+# Estructura de proyecto
 Con este proyecto podras iniciar para procesar css y javascript
 Con las carpetas y las configuraciones necesarias para compilar
-
 
 * Gulp
 * Sass
@@ -23,16 +34,9 @@ Scss carpeta con
 * paginas (1home, 2acercade,3servicios, 4contacto, 5aviso-privasidad)
 Los aterieres importados a una sola pagina Styles.scss de sass en raiz de misma carpeta Scss
 
-TODO se compila en la carpeta dist en las siguientes carpetas
+TODO se compila en la carpeta dist en las siguientes sub carpetas
 * css
 * img
 * js
 
-Se compila desde terminal con el commando gulp
-* escucha  de cambios tiempo real
 
-Se compila de manera independiente
-* Imagnes con comando desde terminal gulp imagenes
-* Minificar css con comando gulp nanoTask
-
-Todos los html van en la raiz de todo el proyecto
